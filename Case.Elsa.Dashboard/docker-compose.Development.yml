@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+    case-elsa-dashboard:
+        image: phuongnguyendeveloper/case-elsa-dashboard:1.0.0
+        ports:
+            - 8081:80
